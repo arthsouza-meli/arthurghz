@@ -1,4 +1,4 @@
-## :man_technologist: Gabriel Ferreira
+## :man_technologist: Arthur G Souza
 
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/nymalone)](https://github.com/arthurghz)
 
