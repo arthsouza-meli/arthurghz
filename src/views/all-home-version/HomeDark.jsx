@@ -12,7 +12,8 @@ import SwitchDark from "../../components/switch/SwitchDark";
 const menuItem = [
   { icon: "fa-home", menuName: "Inicio" },
   { icon: "fa-user", menuName: "Sobre" },
-  { icon: "fa-envelope-open", menuName: "Contate-me" }
+  
+  { icon: "fa-envelope-open", menuName: "Contato" }
 ];
 
 const HomeDark = () => {
@@ -64,22 +65,7 @@ const HomeDark = () => {
           </TabPanel>
           {/* About Content Ends */}
 
-          {/* Portfolio Content Starts */}
-          <TabPanel className="portfolio professional">
-            <div
-              className="title-section text-left text-sm-center"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <h1>
-                my <span>portfolio</span>
-              </h1>
-              <span className="title-bg">works</span>
-            </div>
-            {/* End title */}
-            <Portfolio />
-          </TabPanel>
-          {/* Portfolio Content Ends */}
+
 
           {/* Contact Content Starts */}
           <TabPanel className="contact">
@@ -100,7 +86,7 @@ const HomeDark = () => {
                 {/*  Left Side Starts */}
                 <div className="col-12 col-lg-4">
                   <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
-                    Don't be shy !
+                  Não seja tímido !!
                   </h3>
                   <p className="open-sans-font mb-4">
                   Sinta-se à vontade para entrar em contato comigo. Estou sempre aberto para discutir novos projetos, ideias criativas ou oportunidades para fazer parte de suas visões.
@@ -124,31 +110,6 @@ const HomeDark = () => {
           </TabPanel>
           {/* Contact Content Ends */}
 
-          {/* Blog Content Starts */}
-          <TabPanel className="blog">
-            <div
-              className="title-section text-left text-sm-center "
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <h1>
-                my <span>blog</span>
-              </h1>
-              <span className="title-bg">posts</span>
-            </div>
-            <div
-              className="container"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              {/*  Articles Starts  */}
-              <div className="row pb-50">
-                <Blog />
-              </div>
-              {/* Articles Ends */}
-            </div>
-          </TabPanel>
-          {/* Blog Content Ends */}
         </div>
       </Tabs>
     </div>

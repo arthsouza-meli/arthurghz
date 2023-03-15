@@ -50,18 +50,7 @@ const index = () => {
         </div>
         {/* End .row */}
 
-        <hr className="separator" />
-
-        {/* Skills Starts */}
-        <div className="row">
-          <div className="col-12">
-            <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">
-              Minhas habilidades
-            </h3>
-          </div>
-          <Skills />
-        </div>
-        {/* Skills Ends */}
+  
 
         <hr className="separator mt-1" />
 
@@ -84,6 +73,19 @@ const index = () => {
           </div>
         </div>
         {/*  Experience & Education Ends */}
+
+              <hr className="separator" />
+
+        {/* Skills Starts */}
+        <div className="row">
+          <div className="col-12">
+            <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">
+              Minhas habilidades
+            </h3>
+          </div>
+          <Skills />
+        </div>
+        {/* Skills Ends */}
       </div>
     </section>
   );
