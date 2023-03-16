@@ -8,8 +8,7 @@ import React from "react";
     { meta: "Freelance", metaInfo: "Disponível" },
     { meta: "Endereço", metaInfo: "São Paulo - Brasil" },
     { meta: "telefone", metaInfo: "+55 11 95235-9477" },
-    { meta: "Email", metaInfo: "Arthur.ghz@icloud.com" },
-    { meta: "Skype", metaInfo: "arthurghz" },
+    { meta: "Email", metaInfo: "arthur.ghz@icloud.com" },
     { meta: "idiomas", metaInfo: "Português, Inglês e Espanhol" },
     ];
 const PersonalInfo = () => {
