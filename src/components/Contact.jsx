@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useHistory } from "react-router-dom";
 
 
+const history = useHistory();
 const Contact = () => {
   const form = useRef();
 
