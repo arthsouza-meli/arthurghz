@@ -8,7 +8,7 @@ import Index from "../../components/about/index";
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
-  heroTitleName: "Arthur Souza",
+  heroTitleName: "Arthur Guedes",
   heroDesignation: "Programador",
   heroDescriptions: "Sou um desenvolvedor experiente em front-end e back-end avançado, com habilidades em infraestrutura AWS. Já desenvolvi e gerenciei diversos projetos, utilizando uma variedade de ferramentas e linguagens, como Html, Css, JavaScript, Aws, Python, entre outras. Tenho forte experiência em lidar com incidentes, monitoramento e design de aplicativos, sempre buscando eficiência de custos e segurança.",
   heroBtn: "Mais sobre mim",

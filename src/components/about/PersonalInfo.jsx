@@ -2,7 +2,7 @@ import React from "react";
 
 
   const personalInfoContent = [
-    { meta: "nome", metaInfo: "Arthur Souza" },
+    { meta: "nome", metaInfo: "Arthur Guedes" },
     { meta: "idade", metaInfo: "25 anos" },
     { meta: "nacionalidade", metaInfo: "Brasileiro" },
     { meta: "Freelance", metaInfo: "Disponível" },
