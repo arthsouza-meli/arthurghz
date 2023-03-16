@@ -5,10 +5,10 @@ import "react-toastify/dist/ReactToastify.css";
 import { useHistory } from "react-router-dom";
 
 
-const history = useHistory();
+
 const Contact = () => {
   const form = useRef();
-
+  const history = useHistory();
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
