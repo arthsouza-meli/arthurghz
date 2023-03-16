@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useHistory } from "react-router-dom";
+
 
 const Contact = () => {
   const form = useRef();
@@ -27,6 +29,7 @@ const Contact = () => {
             progress: undefined,
           });
           document.getElementById("myForm").reset();
+          history.push("/obrigado"); 
         },
         (error) => {
           toast.error("Falha ao enviar!", {
