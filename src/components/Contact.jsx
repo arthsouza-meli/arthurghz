@@ -60,7 +60,7 @@ const Contact = () => {
             <div className="form-group">
               <input
                 type="email"
-                name="user_email"
+                name="reply_to"
                 placeholder="Seu e-mail"
                 required
               />
