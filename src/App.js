@@ -5,6 +5,21 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import AnimatedCursor from "react-animated-cursor";
 import { ToastContainer } from "react-toastify";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCITqPpZKEg9Bhx1qFudJ0Lru34gd-N2Fg",
+  authDomain: "arthurghz.firebaseapp.com",
+  projectId: "arthurghz",
+  storageBucket: "arthurghz.appspot.com",
+  messagingSenderId: "91192163646",
+  appId: "1:91192163646:web:f14d08388c8721abfc806f",
+  measurementId: "G-XJ4DH06G28"
+};
 
 const App = () => {
   // this for animation
@@ -13,6 +28,10 @@ const App = () => {
       duration: 1200,
     });
   }, []);
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
 
   return (
     <>
@@ -32,5 +51,7 @@ const App = () => {
     </>
   );
 };
+
+
 
 export default App;
