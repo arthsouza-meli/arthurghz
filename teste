@@ -1,8 +1,38 @@
 {
-    "autosave": true,
-    "cpu": true,
-    "opencl": false,
-    "cuda": false,
+    "cuda": {
+        "enabled": true,
+        "loader": "./xmrig-cuda.dll",
+        "nvml": true,
+        "cn": [
+            {
+                "index": 0,
+                "threads": 32,
+                "blocks": 3,
+                "bfactor": 8,
+                "bsleep": 25,
+                "affinity": -1,
+                "dataset_host": false
+            }
+        ]
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "asm": "auto",
+        "argon2-impl": null,
+        "argon2": [0, 2, 4, 6],
+        "cn": [
+            {
+                "av": 0,
+                "intensity": 0,
+                "strided_index": 1,
+                "threads": 8,
+                "affinity": null
+            }
+        ]
+    },
     "pools": [
         {
             "url": "xmr.pool.gntl.co.uk:20009",
@@ -11,6 +41,9 @@
             "keepalive": true,
             "tls": true
         }
-    ]
+    ],
+    "cuda-loader": "./xmrig-cuda.dll",
+    "api": {
+        "worker-id": "Worker1"
+    }
 }
-xmrig.exe -o xmr.pool.gntl.co.uk:20009 -u 49QBeXkc1isJ2sCsy8rV7wKWBG6FFLqJhUBkifj7WoQza613WfAXDk5FaWh1Zgw4WG5EB8Mwffdh8b8F3vknF9h1Ccrm5nf -k --tls -p teste
