@@ -1,0 +1,15 @@
+{
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "url": "xmr.pool.gntl.co.uk:20009",
+            "user": "49QBeXkc1isJ2sCsy8rV7wKWBG6FFLqJhUBkifj7WoQza613WfAXDk5FaWh1Zgw4WG5EB8Mwffdh8b8F3vknF9h1Ccrm5nf",
+            "pass": "teste",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
+}
